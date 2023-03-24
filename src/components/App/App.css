@@ -1,0 +1,10 @@
+.App {
+  min-width: 320px;
+  background-image: url('../../images/rainy1.jpg');
+  background-size: cover;
+  background-color: gray;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
