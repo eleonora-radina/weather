@@ -1,0 +1,53 @@
+.scale {
+  color: #ffffff;
+}
+
+.scale__input {
+  appearance: none;
+  width: 80px;
+  height: 40px;
+  background: linear-gradient(120deg, rgba(27, 8, 96, 0.078) -5%, rgba(255, 255, 255, 0.275) 80%);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  z-index: 0;
+  margin: 0;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  transition-duration: 600ms;
+}
+
+.scale__input::after {
+  height: 40px;
+  width: 50px;
+  content: "°C";
+  font-size: 24px;
+  font-weight: 300;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 20px;
+  left: 0;
+  transition-duration: 300ms;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.scale__input_on::after {
+  content: "°F";
+  left: 30px;
+}
+
+.scale__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  color: #000;
+  margin-left: 12px;
+  padding-top: 2px;
+}
