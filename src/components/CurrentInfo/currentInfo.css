@@ -1,0 +1,61 @@
+.currentInfo {
+  color: #fff;
+  padding: 0 65px 50px;
+}
+
+.currentInfo__info {
+  display: flex;
+  align-items: end;
+}
+
+.currentInfo__temperature {
+  font-weight: 100;
+  font-size: 164px;
+  line-height: 0.85;
+  margin: 0;
+}
+
+.currentInfo__scale {
+  font-weight: 400;
+  font-size: 32px;
+  position: absolute;
+}
+
+.currentInfo__data-info {
+  padding-left: 40px;
+  letter-spacing: 0.1em;
+}
+
+.currentInfo__data {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 1.2;
+  margin: 0 0 10px;
+}
+
+.currentInfo__time {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.currentInfo__details {
+  display: flex;
+  padding: 25px 0 0;
+  margin: 0;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.05em;
+  gap: 50px;
+}
+
+.currentInfo__detail {
+  display: flex;
+  gap: 10px;
+}
+
+.currentInfo__detail-info {
+  margin: 0;
+}
